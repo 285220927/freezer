@@ -1,6 +1,0 @@
-com/freezer/service/LoginService.class
-com/freezer/response/Response.class
-com/freezer/response/LoginResponse.class
-com/freezer/UserApplication.class
-com/freezer/dao/LoginDao.class
-com/freezer/controller/UserController.class
