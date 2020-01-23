@@ -1,0 +1,90 @@
+2020-01-23 17:19:36.238  INFO  com.freezer.dao.PaymentDao  updateStockAndSell
+[sql] update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ?
+[parameter] {param1=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}], paymentList=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}]}
+cost time: 22ms
+
+2020-01-23 17:19:36.248  INFO  com.freezer.dao.PaymentDao  pay
+[sql] update wx_user set account = account - ? where wx_user.id = ? and ? >= ?
+[parameter] {totalPrice=61.2, wxUser=WxUser{id=1, userId=1, account=17858.0, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param1=WxUser{id=1, userId=1, account=17858.0, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param2=61.2}
+cost time: 3ms
+
+2020-01-23 17:19:36.592  INFO  com.freezer.dao.IntegralDao  addIntegral
+[sql] update user set integral = integral + ? where id = ?
+[parameter] {integralCount=66.0, userId=1, param1=1, param2=66.0}
+cost time: 327ms
+
+2020-01-23 17:20:21.258  INFO  com.freezer.dao.PaymentDao  updateStockAndSell
+[sql] update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ?
+[parameter] {param1=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}], paymentList=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}]}
+cost time: 9ms
+
+2020-01-23 17:20:21.260  INFO  com.freezer.dao.PaymentDao  pay
+[sql] update wx_user set account = account - ? where wx_user.id = ? and ? >= ?
+[parameter] {totalPrice=61.2, wxUser=WxUser{id=1, userId=1, account=17796.8, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param1=WxUser{id=1, userId=1, account=17796.8, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param2=61.2}
+cost time: 1ms
+
+2020-01-23 17:20:21.267  INFO  com.freezer.dao.IntegralDao  addIntegral
+[sql] update user set integral = integral + ? where id = ?
+[parameter] {integralCount=66.0, userId=1, param1=1, param2=66.0}
+cost time: 4ms
+
+2020-01-23 17:20:41.077  INFO  com.freezer.dao.PaymentDao  updateStockAndSell
+[sql] update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ?
+[parameter] {param1=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}], paymentList=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}]}
+cost time: 3ms
+
+2020-01-23 17:20:41.079  INFO  com.freezer.dao.PaymentDao  pay
+[sql] update wx_user set account = account - ? where wx_user.id = ? and ? >= ?
+[parameter] {totalPrice=61.2, wxUser=WxUser{id=1, userId=1, account=17735.6, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param1=WxUser{id=1, userId=1, account=17735.6, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param2=61.2}
+cost time: 2ms
+
+2020-01-23 17:20:41.085  INFO  com.freezer.dao.IntegralDao  addIntegral
+[sql] update user set integral = integral + ? where id = ?
+[parameter] {integralCount=66.0, userId=1, param1=1, param2=66.0}
+cost time: 4ms
+
+2020-01-23 17:51:43.252  INFO  com.freezer.dao.PaymentDao  updateStockAndSell
+[sql] update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ?
+[parameter] {param1=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}], paymentList=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}]}
+cost time: 19ms
+
+2020-01-23 17:51:43.260  INFO  com.freezer.dao.PaymentDao  pay
+[sql] update wx_user set account = account - ? where wx_user.id = ? and ? >= ?
+[parameter] {totalPrice=61.2, wxUser=WxUser{id=1, userId=1, account=17674.4, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param1=WxUser{id=1, userId=1, account=17674.4, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param2=61.2}
+cost time: 2ms
+
+2020-01-23 17:51:43.596  INFO  com.freezer.dao.IntegralDao  addIntegral
+[sql] update user set integral = integral + ? where id = ?
+[parameter] {integralCount=66.0, userId=1, param1=1, param2=66.0}
+cost time: 310ms
+
+2020-01-23 17:52:14.962  INFO  com.freezer.dao.PaymentDao  updateStockAndSell
+[sql] update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ?
+[parameter] {param1=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}], paymentList=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}]}
+cost time: 3ms
+
+2020-01-23 17:52:14.965  INFO  com.freezer.dao.PaymentDao  pay
+[sql] update wx_user set account = account - ? where wx_user.id = ? and ? >= ?
+[parameter] {totalPrice=61.2, wxUser=WxUser{id=1, userId=1, account=17613.2, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param1=WxUser{id=1, userId=1, account=17613.2, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param2=61.2}
+cost time: 3ms
+
+2020-01-23 17:52:14.971  INFO  com.freezer.dao.IntegralDao  addIntegral
+[sql] update user set integral = integral + ? where id = ?
+[parameter] {integralCount=66.0, userId=1, param1=1, param2=66.0}
+cost time: 4ms
+
+2020-01-23 17:52:30.220  INFO  com.freezer.dao.PaymentDao  updateStockAndSell
+[sql] update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ? ; update goods set goods.stock = (select s.stock from (select stock from goods where id = ?) s) - ?, goods.sell = (select e.sell from (select sell from goods where id = ?) e) + ? where goods.id = ? and goods.stock > ?
+[parameter] {param1=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}], paymentList=[Payment{goodsId=1, purchaseCount=2}, Payment{goodsId=2, purchaseCount=5}, Payment{goodsId=4, purchaseCount=8}, Payment{goodsId=7, purchaseCount=2}]}
+cost time: 3ms
+
+2020-01-23 17:52:30.223  INFO  com.freezer.dao.PaymentDao  pay
+[sql] update wx_user set account = account - ? where wx_user.id = ? and ? >= ?
+[parameter] {totalPrice=61.2, wxUser=WxUser{id=1, userId=1, account=17552.0, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param1=WxUser{id=1, userId=1, account=17552.0, createTime=Mon Dec 30 12:27:57 ULAT 2019, lastLogin=Thu Jan 23 13:26:22 ULAT 2020}, param2=61.2}
+cost time: 2ms
+
+2020-01-23 17:52:30.231  INFO  com.freezer.dao.IntegralDao  addIntegral
+[sql] update user set integral = integral + ? where id = ?
+[parameter] {integralCount=66.0, userId=1, param1=1, param2=66.0}
+cost time: 5ms
+

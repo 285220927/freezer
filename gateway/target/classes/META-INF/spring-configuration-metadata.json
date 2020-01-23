@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.freezer.config.FilterUriProperties",
+      "name": "filter",
+      "type": "com.freezer.config.FilterUriProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.freezer.config.FilterUriProperties",
+      "name": "filter.uri-list",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}

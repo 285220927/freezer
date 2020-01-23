@@ -1,0 +1,6 @@
+rabbitmq:
+  queue-log: log-queue
+  exchange: direct.integral
+  routing-key-log: log
+
+log-path: /home/ubuntu/IdeaProjects/unmanned-freezer/logs.txt
