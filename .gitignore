@@ -1,5 +1,7 @@
-.logs
-.log
-.imi
+*.txt
+*.log
+*.imi
+api
 
 .idea/
+/target/
